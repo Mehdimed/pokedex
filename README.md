@@ -1,6 +1,6 @@
-# Pokedex
+# Pokédex
 
-Petit projet pour tester Angular , création d'un pokédex des Pokémons de 1ere générations.
+Petit projet pour tester Angular , création d'un pokédex des Pokémons de 1ere génération.
 
 
 ## Accueil du site
