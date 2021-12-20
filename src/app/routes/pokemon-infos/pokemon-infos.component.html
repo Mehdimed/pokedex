@@ -1,0 +1,45 @@
+<div class="container">
+
+    <div (click)="previousPokemon()" class="before"></div>
+    <div (click)="nextPokemon()" class="next"></div>
+
+    <div class="pokedex-window-border">
+        <div class="pokedex-window">
+            <div  *ngIf="pokemon.name" class="pokemon-img">
+                <img src="assets/images/pokemons/{{pokemon.name}}.png" alt="{{pokemon.name}}.png">
+            </div>
+            <div *ngIf="pokemon.name" class="pokemon-infos">
+                <h2>{{pokemon.name}}</h2>
+        
+                <div class="row">
+                    <div class="type" *ngFor="let type of pokemon.type">
+                        <img src="assets/images/types/{{type}}.png" alt="type-{{type}}">
+                    </div>
+                </div>
+        
+                <div class="stats">
+                    <div class="hp">
+                        PV : <span class="stat-text">{{ pokemon.base.HP }}</span>
+                    </div>
+                    <div class="atk">
+                        Attaque : <span class="stat-text">{{ pokemon.base.Attack }}</span>
+                    </div>
+                    <div class="def">
+                        Défense : <span class="stat-text">{{ pokemon.base.Defense }}</span>
+                    </div>
+                    <div class="spe-atk">
+                        Attaque spéciale : <span class="stat-text">{{ pokemon.base["Sp. Attack"]}}</span>
+                    </div>
+                    <div class="spe-def">
+                        Défense spéciale : <span class="stat-text">{{ pokemon.base["Sp. Defense"]}}</span>
+                    </div>
+                    <div class="vitesse">
+                        Vitesse : <span class="stat-text">{{ pokemon.base.Speed}}</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+</div>

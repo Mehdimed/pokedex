@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DC0A2D;
+    border-bottom: solid 5px #89061C;
+}
+
+#logo{
+    max-width: 120px;
+    cursor: pointer;
+}
+
+.search-module{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.search-button{
+    cursor: pointer;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+
+    margin-left: -1px;
+}
