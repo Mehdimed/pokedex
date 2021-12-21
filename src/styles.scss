@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: all ease-in-out 300;
 }
 html, body,.content { height: 100%; }
 body { 
@@ -56,5 +57,20 @@ body {
                 background-color: rgb(212, 212, 212);
             }
         }
+    }
+}
+
+.transfer{
+    position: fixed;
+    top: 25%;
+    left: 5%;
+    width: 150px;
+    height: 140px;
+    z-index: 50;
+    background-color:violet;
+    border: outset;
+    &:active{
+        background-color:rgb(233, 55, 233) ;
+        border: inset;
     }
 }

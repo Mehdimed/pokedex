@@ -9,7 +9,7 @@
                 <img src="assets/images/pokemons/{{pokemon.name}}.png" alt="{{pokemon.name}}.png">
             </div>
             <div *ngIf="pokemon.name" class="pokemon-infos">
-                <h2>{{pokemon.name}}</h2>
+                <h2>{{pokemon.name}} # {{pokemon.id}}</h2>
         
                 <div class="row">
                     <div class="type" *ngFor="let type of pokemon.type">

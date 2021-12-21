@@ -2,7 +2,7 @@
     "id": 1,
     "name": "Bulbizarre",
     "type": [
-      "Grass",
+      "Plante",
       "Poison"
     ],
     "base": {
@@ -18,7 +18,7 @@
     "id": 2,
     "name": "Herbizarre",
     "type": [
-      "Grass",
+      "Plante",
       "Poison"
     ],
     "base": {
@@ -34,7 +34,7 @@
     "id": 3,
     "name": "Florizarre",
     "type": [
-      "Grass",
+      "Plante",
       "Poison"
     ],
     "base": {
@@ -50,7 +50,7 @@
     "id": 4,
     "name": "Salamèche",
     "type": [
-      "Fire"
+      "Feu"
     ],
     "base": {
       "HP": 39,
@@ -65,7 +65,7 @@
     "id": 5,
     "name": "Reptincel",
     "type": [
-      "Fire"
+      "Feu"
     ],
     "base": {
       "HP": 58,
@@ -80,8 +80,8 @@
     "id": 6,
     "name": "Dracaufeu",
     "type": [
-      "Fire",
-      "Flying"
+      "Feu",
+      "Vol"
     ],
     "base": {
       "HP": 78,
@@ -96,7 +96,7 @@
     "id": 7,
     "name": "Carapuce",
     "type": [
-      "Water"
+      "Eau"
     ],
     "base": {
       "HP": 44,
@@ -111,7 +111,7 @@
     "id": 8,
     "name": "Carabaffe",
     "type": [
-      "Water"
+      "Eau"
     ],
     "base": {
       "HP": 59,
@@ -126,7 +126,7 @@
     "id": 9,
     "name": "Tortank",
     "type": [
-      "Water"
+      "Eau"
     ],
     "base": {
       "HP": 79,
@@ -141,7 +141,7 @@
     "id": 10,
     "name": "Chenipan",
     "type": [
-      "Bug"
+      "Insecte"
     ],
     "base": {
       "HP": 45,
@@ -156,7 +156,7 @@
     "id": 11,
     "name": "Chrysacier",
     "type": [
-      "Bug"
+      "Insecte"
     ],
     "base": {
       "HP": 50,
@@ -171,8 +171,8 @@
     "id": 12,
     "name": "Papilusion",
     "type": [
-      "Bug",
-      "Flying"
+      "Insecte",
+      "Vol"
     ],
     "base": {
       "HP": 60,
@@ -187,7 +187,7 @@
     "id": 13,
     "name": "Aspicot",
     "type": [
-      "Bug",
+      "Insecte",
       "Poison"
     ],
     "base": {
@@ -203,7 +203,7 @@
     "id": 14,
     "name": "Coconfort",
     "type": [
-      "Bug",
+      "Insecte",
       "Poison"
     ],
     "base": {
@@ -219,7 +219,7 @@
     "id": 15,
     "name": "Dardargnan",
     "type": [
-      "Bug",
+      "Insecte",
       "Poison"
     ],
     "base": {
@@ -236,7 +236,7 @@
     "name": "Roucool",
     "type": [
       "Normal",
-      "Flying"
+      "Vol"
     ],
     "base": {
       "HP": 40,
@@ -252,7 +252,7 @@
     "name": "Roucoups",
     "type": [
       "Normal",
-      "Flying"
+      "Vol"
     ],
     "base": {
       "HP": 63,
@@ -268,7 +268,7 @@
     "name": "Roucarnage",
     "type": [
       "Normal",
-      "Flying"
+      "Vol"
     ],
     "base": {
       "HP": 83,
@@ -314,7 +314,7 @@
     "name": "Piafabec",
     "type": [
       "Normal",
-      "Flying"
+      "Vol"
     ],
     "base": {
       "HP": 40,
@@ -330,7 +330,7 @@
     "name": "Rapasdepic",
     "type": [
       "Normal",
-      "Flying"
+      "Vol"
     ],
     "base": {
       "HP": 65,
@@ -375,7 +375,7 @@
     "id": 25,
     "name": "Pikachu",
     "type": [
-      "Electric"
+      "Electrique"
     ],
     "base": {
       "HP": 35,
@@ -390,7 +390,7 @@
     "id": 26,
     "name": "Raichu",
     "type": [
-      "Electric"
+      "Electrique"
     ],
     "base": {
       "HP": 60,
@@ -405,7 +405,7 @@
     "id": 27,
     "name": "Sabelette",
     "type": [
-      "Ground"
+      "Sol"
     ],
     "base": {
       "HP": 50,
@@ -420,7 +420,7 @@
     "id": 28,
     "name": "Sablaireau",
     "type": [
-      "Ground"
+      "Sol"
     ],
     "base": {
       "HP": 75,
@@ -466,7 +466,7 @@
     "name": "Nidoqueen",
     "type": [
       "Poison",
-      "Ground"
+      "Sol"
     ],
     "base": {
       "HP": 90,
@@ -512,7 +512,7 @@
     "name": "Nidoking",
     "type": [
       "Poison",
-      "Ground"
+      "Sol"
     ],
     "base": {
       "HP": 81,
@@ -527,7 +527,7 @@
     "id": 35,
     "name": "Mélofée",
     "type": [
-      "Fairy"
+      "Fée"
     ],
     "base": {
       "HP": 70,
@@ -542,7 +542,7 @@
     "id": 36,
     "name": "Mélodelfe",
     "type": [
-      "Fairy"
+      "Fée"
     ],
     "base": {
       "HP": 95,
@@ -557,7 +557,7 @@
     "id": 37,
     "name": "Goupix",
     "type": [
-      "Fire"
+      "Feu"
     ],
     "base": {
       "HP": 38,
@@ -572,7 +572,7 @@
     "id": 38,
     "name": "Feunard",
     "type": [
-      "Fire"
+      "Feu"
     ],
     "base": {
       "HP": 73,
@@ -588,7 +588,7 @@
     "name": "Rondoudou",
     "type": [
       "Normal",
-      "Fairy"
+      "Fée"
     ],
     "base": {
       "HP": 115,
@@ -604,7 +604,7 @@
     "name": "Grodoudou",
     "type": [
       "Normal",
-      "Fairy"
+      "Fée"
     ],
     "base": {
       "HP": 140,
@@ -620,7 +620,7 @@
     "name": "Nosferapti",
     "type": [
       "Poison",
-      "Flying"
+      "Vol"
     ],
     "base": {
       "HP": 40,
@@ -636,7 +636,7 @@
     "name": "Nosferalto",
     "type": [
       "Poison",
-      "Flying"
+      "Vol"
     ],
     "base": {
       "HP": 75,
@@ -651,7 +651,7 @@
     "id": 43,
     "name": "Mystherbe",
     "type": [
-      "Grass",
+      "Plante",
       "Poison"
     ],
     "base": {
@@ -667,7 +667,7 @@
     "id": 44,
     "name": "Ortide",
     "type": [
-      "Grass",
+      "Plante",
       "Poison"
     ],
     "base": {
@@ -683,7 +683,7 @@
     "id": 45,
     "name": "Rafflesia",
     "type": [
-      "Grass",
+      "Plante",
       "Poison"
     ],
     "base": {
@@ -699,8 +699,8 @@
     "id": 46,
     "name": "Paras",
     "type": [
-      "Bug",
-      "Grass"
+      "Insecte",
+      "Plante"
     ],
     "base": {
       "HP": 35,
@@ -715,8 +715,8 @@
     "id": 47,
     "name": "Parasect",
     "type": [
-      "Bug",
-      "Grass"
+      "Insecte",
+      "Plante"
     ],
     "base": {
       "HP": 60,
@@ -731,7 +731,7 @@
     "id": 48,
     "name": "Mimitoss",
     "type": [
-      "Bug",
+      "Insecte",
       "Poison"
     ],
     "base": {
@@ -747,7 +747,7 @@
     "id": 49,
     "name": "Aéromite",
     "type": [
-      "Bug",
+      "Insecte",
       "Poison"
     ],
     "base": {
@@ -763,7 +763,7 @@
     "id": 50,
     "name": "Taupiqueur",
     "type": [
-      "Ground"
+      "Sol"
     ],
     "base": {
       "HP": 10,
@@ -778,7 +778,7 @@
     "id": 51,
     "name": "Triopikeur",
     "type": [
-      "Ground"
+      "Sol"
     ],
     "base": {
       "HP": 35,
@@ -823,7 +823,7 @@
     "id": 54,
     "name": "Psykokwak",
     "type": [
-      "Water"
+      "Eau"
     ],
     "base": {
       "HP": 50,
@@ -838,7 +838,7 @@
     "id": 55,
     "name": "Akwakwak",
     "type": [
-      "Water"
+      "Eau"
     ],
     "base": {
       "HP": 80,
@@ -853,7 +853,7 @@
     "id": 56,
     "name": "Férosinge",
     "type": [
-      "Fighting"
+      "Combat"
     ],
     "base": {
       "HP": 40,
@@ -868,7 +868,7 @@
     "id": 57,
     "name": "Colossinge",
     "type": [
-      "Fighting"
+      "Combat"
     ],
     "base": {
       "HP": 65,
@@ -883,7 +883,7 @@
     "id": 58,
     "name": "Caninos",
     "type": [
-      "Fire"
+      "Feu"
     ],
     "base": {
       "HP": 55,
@@ -898,7 +898,7 @@
     "id": 59,
     "name": "Arcanin",
     "type": [
-      "Fire"
+      "Feu"
     ],
     "base": {
       "HP": 90,
@@ -913,7 +913,7 @@
     "id": 60,
     "name": "Ptitard",
     "type": [
-      "Water"
+      "Eau"
     ],
     "base": {
       "HP": 40,
@@ -928,7 +928,7 @@
     "id": 61,
     "name": "Têtarte",
     "type": [
-      "Water"
+      "Eau"
     ],
     "base": {
       "HP": 65,
@@ -943,8 +943,8 @@
     "id": 62,
     "name": "Tartard",
     "type": [
-      "Water",
-      "Fighting"
+      "Eau",
+      "Combat"
     ],
     "base": {
       "HP": 90,
@@ -959,7 +959,7 @@
     "id": 63,
     "name": "Abra",
     "type": [
-      "Psychic"
+      "Psy"
     ],
     "base": {
       "HP": 25,
@@ -974,7 +974,7 @@
     "id": 64,
     "name": "Kadabra",
     "type": [
-      "Psychic"
+      "Psy"
     ],
     "base": {
       "HP": 40,
@@ -989,7 +989,7 @@
     "id": 65,
     "name": "Alakazam",
     "type": [
-      "Psychic"
+      "Psy"
     ],
     "base": {
       "HP": 55,
@@ -1004,7 +1004,7 @@
     "id": 66,
     "name": "Machoc",
     "type": [
-      "Fighting"
+      "Combat"
     ],
     "base": {
       "HP": 70,
@@ -1019,7 +1019,7 @@
     "id": 67,
     "name": "Machopeur",
     "type": [
-      "Fighting"
+      "Combat"
     ],
     "base": {
       "HP": 80,
@@ -1034,7 +1034,7 @@
     "id": 68,
     "name": "Mackogneur",
     "type": [
-      "Fighting"
+      "Combat"
     ],
     "base": {
       "HP": 90,
@@ -1049,7 +1049,7 @@
     "id": 69,
     "name": "Chétiflor",
     "type": [
-      "Grass",
+      "Plante",
       "Poison"
     ],
     "base": {
@@ -1065,7 +1065,7 @@
     "id": 70,
     "name": "Boustiflor",
     "type": [
-      "Grass",
+      "Plante",
       "Poison"
     ],
     "base": {
@@ -1081,7 +1081,7 @@
     "id": 71,
     "name": "Empiflor",
     "type": [
-      "Grass",
+      "Plante",
       "Poison"
     ],
     "base": {
@@ -1097,7 +1097,7 @@
     "id": 72,
     "name": "Tentacool",
     "type": [
-      "Water",
+      "Eau",
       "Poison"
     ],
     "base": {
@@ -1113,7 +1113,7 @@
     "id": 73,
     "name": "Tentacruel",
     "type": [
-      "Water",
+      "Eau",
       "Poison"
     ],
     "base": {
@@ -1129,8 +1129,8 @@
     "id": 74,
     "name": "Racaillou",
     "type": [
-      "Rock",
-      "Ground"
+      "Roche",
+      "Sol"
     ],
     "base": {
       "HP": 40,
@@ -1145,8 +1145,8 @@
     "id": 75,
     "name": "Gravalanch",
     "type": [
-      "Rock",
-      "Ground"
+      "Roche",
+      "Sol"
     ],
     "base": {
       "HP": 55,
@@ -1161,8 +1161,8 @@
     "id": 76,
     "name": "Grolem",
     "type": [
-      "Rock",
-      "Ground"
+      "Roche",
+      "Sol"
     ],
     "base": {
       "HP": 80,
@@ -1177,7 +1177,7 @@
     "id": 77,
     "name": "Ponyta",
     "type": [
-      "Fire"
+      "Feu"
     ],
     "base": {
       "HP": 50,
@@ -1192,7 +1192,7 @@
     "id": 78,
     "name": "Galopa",
     "type": [
-      "Fire"
+      "Feu"
     ],
     "base": {
       "HP": 65,
@@ -1207,8 +1207,8 @@
     "id": 79,
     "name": "Ramoloss",
     "type": [
-      "Water",
-      "Psychic"
+      "Eau",
+      "Psy"
     ],
     "base": {
       "HP": 90,
@@ -1223,8 +1223,8 @@
     "id": 80,
     "name": "Flagadoss",
     "type": [
-      "Water",
-      "Psychic"
+      "Eau",
+      "Psy"
     ],
     "base": {
       "HP": 95,
@@ -1239,8 +1239,8 @@
     "id": 81,
     "name": "Magnéti",
     "type": [
-      "Electric",
-      "Steel"
+      "Electrique",
+      "Acier"
     ],
     "base": {
       "HP": 25,
@@ -1255,8 +1255,8 @@
     "id": 82,
     "name": "Magnéton",
     "type": [
-      "Electric",
-      "Steel"
+      "Electrique",
+      "Acier"
     ],
     "base": {
       "HP": 50,
@@ -1272,7 +1272,7 @@
     "name": "Canarticho",
     "type": [
       "Normal",
-      "Flying"
+      "Vol"
     ],
     "base": {
       "HP": 52,
@@ -1288,7 +1288,7 @@
     "name": "Doduo",
     "type": [
       "Normal",
-      "Flying"
+      "Vol"
     ],
     "base": {
       "HP": 35,
@@ -1304,7 +1304,7 @@
     "name": "Dodrio",
     "type": [
       "Normal",
-      "Flying"
+      "Vol"
     ],
     "base": {
       "HP": 60,
@@ -1319,7 +1319,7 @@
     "id": 86,
     "name": "Otaria",
     "type": [
-      "Water"
+      "Eau"
     ],
     "base": {
       "HP": 65,
@@ -1334,8 +1334,8 @@
     "id": 87,
     "name": "Lamantine",
     "type": [
-      "Water",
-      "Ice"
+      "Eau",
+      "Glace"
     ],
     "base": {
       "HP": 90,
@@ -1380,7 +1380,7 @@
     "id": 90,
     "name": "Kokiyas",
     "type": [
-      "Water"
+      "Eau"
     ],
     "base": {
       "HP": 30,
@@ -1395,8 +1395,8 @@
     "id": 91,
     "name": "Crustabri",
     "type": [
-      "Water",
-      "Ice"
+      "Eau",
+      "Glace"
     ],
     "base": {
       "HP": 50,
@@ -1411,7 +1411,7 @@
     "id": 92,
     "name": "Fantominus",
     "type": [
-      "Ghost",
+      "Spectre",
       "Poison"
     ],
     "base": {
@@ -1427,7 +1427,7 @@
     "id": 93,
     "name": "Spectrum",
     "type": [
-      "Ghost",
+      "Spectre",
       "Poison"
     ],
     "base": {
@@ -1443,7 +1443,7 @@
     "id": 94,
     "name": "Ectoplasma",
     "type": [
-      "Ghost",
+      "Spectre",
       "Poison"
     ],
     "base": {
@@ -1459,8 +1459,8 @@
     "id": 95,
     "name": "Onix",
     "type": [
-      "Rock",
-      "Ground"
+      "Roche",
+      "Sol"
     ],
     "base": {
       "HP": 35,
@@ -1475,7 +1475,7 @@
     "id": 96,
     "name": "Soporifik",
     "type": [
-      "Psychic"
+      "Psy"
     ],
     "base": {
       "HP": 60,
@@ -1490,7 +1490,7 @@
     "id": 97,
     "name": "Hypnomade",
     "type": [
-      "Psychic"
+      "Psy"
     ],
     "base": {
       "HP": 85,
@@ -1505,7 +1505,7 @@
     "id": 98,
     "name": "Krabby",
     "type": [
-      "Water"
+      "Eau"
     ],
     "base": {
       "HP": 30,
@@ -1520,7 +1520,7 @@
     "id": 99,
     "name": "Krabboss",
     "type": [
-      "Water"
+      "Eau"
     ],
     "base": {
       "HP": 55,
@@ -1535,7 +1535,7 @@
     "id": 100,
     "name": "Voltorbe",
     "type": [
-      "Electric"
+      "Electrique"
     ],
     "base": {
       "HP": 40,
@@ -1550,7 +1550,7 @@
     "id": 101,
     "name": "Electrode",
     "type": [
-      "Electric"
+      "Electrique"
     ],
     "base": {
       "HP": 60,
@@ -1565,8 +1565,8 @@
     "id": 102,
     "name": "Noeunoeuf",
     "type": [
-      "Grass",
-      "Psychic"
+      "Plante",
+      "Psy"
     ],
     "base": {
       "HP": 60,
@@ -1581,8 +1581,8 @@
     "id": 103,
     "name": "Noadkoko",
     "type": [
-      "Grass",
-      "Psychic"
+      "Plante",
+      "Psy"
     ],
     "base": {
       "HP": 95,
@@ -1597,7 +1597,7 @@
     "id": 104,
     "name": "Osselait",
     "type": [
-      "Ground"
+      "Sol"
     ],
     "base": {
       "HP": 50,
@@ -1612,7 +1612,7 @@
     "id": 105,
     "name": "Ossatueur",
     "type": [
-      "Ground"
+      "Sol"
     ],
     "base": {
       "HP": 60,
@@ -1627,7 +1627,7 @@
     "id": 106,
     "name": "Kicklee",
     "type": [
-      "Fighting"
+      "Combat"
     ],
     "base": {
       "HP": 50,
@@ -1642,7 +1642,7 @@
     "id": 107,
     "name": "Tygnon",
     "type": [
-      "Fighting"
+      "Combat"
     ],
     "base": {
       "HP": 50,
@@ -1702,8 +1702,8 @@
     "id": 111,
     "name": "Rhinocorne",
     "type": [
-      "Ground",
-      "Rock"
+      "Sol",
+      "Roche"
     ],
     "base": {
       "HP": 80,
@@ -1718,8 +1718,8 @@
     "id": 112,
     "name": "Rhinoféros",
     "type": [
-      "Ground",
-      "Rock"
+      "Sol",
+      "Roche"
     ],
     "base": {
       "HP": 105,
@@ -1749,7 +1749,7 @@
     "id": 114,
     "name": "Saquedeneu",
     "type": [
-      "Grass"
+      "Plante"
     ],
     "base": {
       "HP": 65,
@@ -1779,7 +1779,7 @@
     "id": 116,
     "name": "Hypotrempe",
     "type": [
-      "Water"
+      "Eau"
     ],
     "base": {
       "HP": 30,
@@ -1794,7 +1794,7 @@
     "id": 117,
     "name": "Hypocéan",
     "type": [
-      "Water"
+      "Eau"
     ],
     "base": {
       "HP": 55,
@@ -1809,7 +1809,7 @@
     "id": 118,
     "name": "Poissirène",
     "type": [
-      "Water"
+      "Eau"
     ],
     "base": {
       "HP": 45,
@@ -1824,7 +1824,7 @@
     "id": 119,
     "name": "Poissoroy",
     "type": [
-      "Water"
+      "Eau"
     ],
     "base": {
       "HP": 80,
@@ -1839,7 +1839,7 @@
     "id": 120,
     "name": "Stari",
     "type": [
-      "Water"
+      "Eau"
     ],
     "base": {
       "HP": 30,
@@ -1854,8 +1854,8 @@
     "id": 121,
     "name": "Staross",
     "type": [
-      "Water",
-      "Psychic"
+      "Eau",
+      "Psy"
     ],
     "base": {
       "HP": 60,
@@ -1870,8 +1870,8 @@
     "id": 122,
     "name": "M. Mime",
     "type": [
-      "Psychic",
-      "Fairy"
+      "Psy",
+      "Fée"
     ],
     "base": {
       "HP": 40,
@@ -1886,8 +1886,8 @@
     "id": 123,
     "name": "Insécateur",
     "type": [
-      "Bug",
-      "Flying"
+      "Insecte",
+      "Vol"
     ],
     "base": {
       "HP": 70,
@@ -1902,8 +1902,8 @@
     "id": 124,
     "name": "Lippoutou",
     "type": [
-      "Ice",
-      "Psychic"
+      "Glace",
+      "Psy"
     ],
     "base": {
       "HP": 65,
@@ -1918,7 +1918,7 @@
     "id": 125,
     "name": "Elektek",
     "type": [
-      "Electric"
+      "Electrique"
     ],
     "base": {
       "HP": 65,
@@ -1933,7 +1933,7 @@
     "id": 126,
     "name": "Magmar",
     "type": [
-      "Fire"
+      "Feu"
     ],
     "base": {
       "HP": 65,
@@ -1948,7 +1948,7 @@
     "id": 127,
     "name": "Scarabrute",
     "type": [
-      "Bug"
+      "Insecte"
     ],
     "base": {
       "HP": 65,
@@ -1978,7 +1978,7 @@
     "id": 129,
     "name": "Magicarpe",
     "type": [
-      "Water"
+      "Eau"
     ],
     "base": {
       "HP": 20,
@@ -1993,8 +1993,8 @@
     "id": 130,
     "name": "Léviator",
     "type": [
-      "Water",
-      "Flying"
+      "Eau",
+      "Vol"
     ],
     "base": {
       "HP": 95,
@@ -2009,8 +2009,8 @@
     "id": 131,
     "name": "Lokhlass",
     "type": [
-      "Water",
-      "Ice"
+      "Eau",
+      "Glace"
     ],
     "base": {
       "HP": 130,
@@ -2055,7 +2055,7 @@
     "id": 134,
     "name": "Aquali",
     "type": [
-      "Water"
+      "Eau"
     ],
     "base": {
       "HP": 130,
@@ -2070,7 +2070,7 @@
     "id": 135,
     "name": "Voltali",
     "type": [
-      "Electric"
+      "Electrique"
     ],
     "base": {
       "HP": 65,
@@ -2085,7 +2085,7 @@
     "id": 136,
     "name": "Pyroli",
     "type": [
-      "Fire"
+      "Feu"
     ],
     "base": {
       "HP": 65,
@@ -2115,8 +2115,8 @@
     "id": 138,
     "name": "Amonita",
     "type": [
-      "Rock",
-      "Water"
+      "Roche",
+      "Eau"
     ],
     "base": {
       "HP": 35,
@@ -2131,8 +2131,8 @@
     "id": 139,
     "name": "Amonistar",
     "type": [
-      "Rock",
-      "Water"
+      "Roche",
+      "Eau"
     ],
     "base": {
       "HP": 70,
@@ -2147,8 +2147,8 @@
     "id": 140,
     "name": "Kabuto",
     "type": [
-      "Rock",
-      "Water"
+      "Roche",
+      "Eau"
     ],
     "base": {
       "HP": 30,
@@ -2163,8 +2163,8 @@
     "id": 141,
     "name": "Kabutops",
     "type": [
-      "Rock",
-      "Water"
+      "Roche",
+      "Eau"
     ],
     "base": {
       "HP": 60,
@@ -2179,8 +2179,8 @@
     "id": 142,
     "name": "Ptéra",
     "type": [
-      "Rock",
-      "Flying"
+      "Roche",
+      "Vol"
     ],
     "base": {
       "HP": 80,
@@ -2210,8 +2210,8 @@
     "id": 144,
     "name": "Artikodin",
     "type": [
-      "Ice",
-      "Flying"
+      "Glace",
+      "Vol"
     ],
     "base": {
       "HP": 90,
@@ -2226,8 +2226,8 @@
     "id": 145,
     "name": "Electhor",
     "type": [
-      "Electric",
-      "Flying"
+      "Electrique",
+      "Vol"
     ],
     "base": {
       "HP": 90,
@@ -2242,8 +2242,8 @@
     "id": 146,
     "name": "Sulfura",
     "type": [
-      "Fire",
-      "Flying"
+      "Feu",
+      "Vol"
     ],
     "base": {
       "HP": 90,
@@ -2289,7 +2289,7 @@
     "name": "Dracolosse",
     "type": [
       "Dragon",
-      "Flying"
+      "Vol"
     ],
     "base": {
       "HP": 91,
@@ -2304,7 +2304,7 @@
     "id": 150,
     "name": "Mewtwo",
     "type": [
-      "Psychic"
+      "Psy"
     ],
     "base": {
       "HP": 106,
@@ -2319,7 +2319,7 @@
     "id": 151,
     "name": "Mew",
     "type": [
-      "Psychic"
+      "Psy"
     ],
     "base": {
       "HP": 100,

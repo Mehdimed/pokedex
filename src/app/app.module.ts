@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { AutoCompleteModule } from 'primeng/autocomplete';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http'
 
 
 
@@ -22,7 +23,9 @@ import { PokemonInfosComponent } from './routes/pokemon-infos/pokemon-infos.comp
     AppRoutingModule,
     FormsModule,
     AutoCompleteModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

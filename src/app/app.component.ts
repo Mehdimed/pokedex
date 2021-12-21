@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { Pokemon } from 'src/models/pokemon';
 import Data from '../assets/pokemons.json';
+import { PokemonService } from './services/pokemon.service';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +14,7 @@ export class AppComponent {
   public pokemonToSearch: string = '';
   public filteredPokemons: string[] = [];
 
-  constructor(private router: Router){
+  constructor(private router: Router, private pokemonService: PokemonService){
 
   }
   
