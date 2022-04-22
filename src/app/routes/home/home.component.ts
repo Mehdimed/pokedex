@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { PokemonService } from 'src/app/services/pokemon.service';
 
 @Component({
   selector: 'app-home',
@@ -8,15 +7,10 @@ import { PokemonService } from 'src/app/services/pokemon.service';
 })
 export class HomeComponent implements OnInit {
 
-  public pokemons!: []
 
-  constructor(private pokemonService: PokemonService) { }
+  constructor() { }
 
   ngOnInit(): void {
-
-    this.pokemonService.getPokemon().subscribe((resp:any) => {
-      // console.log(resp["hydra:member"][0])
-    })
   }
 
 }

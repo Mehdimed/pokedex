@@ -21,8 +21,11 @@ export class PokemonInfosComponent implements OnInit {
       this.search = params['search'];
     })
 
-    this.pokemonService.getPokemonByName(this.search).subscribe((resp)=>{
-      this.pokemon = resp
+    this.pokemonService.getPokemon().subscribe((pokemons: Pokemon[]) => {
+      const pokemonRechercher = pokemons.find((p) => p.name === this.search);
+      if(pokemonRechercher){
+        this.pokemon = pokemonRechercher;
+      }
     })
   }
 

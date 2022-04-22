@@ -5,36 +5,36 @@
 
     <div class="pokedex-window-border">
         <div class="pokedex-window">
-            <div  *ngIf="pokemon.name" class="pokemon-img">
-                <img src="assets/images/pokemons/{{pokemon.name}}.png" alt="{{pokemon.name}}.png">
+            <div  *ngIf="pokemon" class="pokemon-img">
+                <img src="https://mehdidex.herokuapp.com/images/pokemons/{{pokemon.name}}.png" alt="{{pokemon.name}}.png">
             </div>
-            <div *ngIf="pokemon.name" class="pokemon-infos">
+            <div *ngIf="pokemon" class="pokemon-infos">
                 <h2>{{pokemon.name}} # {{pokemon.id}}</h2>
         
                 <div class="row">
                     <div class="type" *ngFor="let type of pokemon.type">
-                        <img src="assets/images/types/{{type}}.png" alt="type-{{type}}">
+                        <img src="https://mehdidex.herokuapp.com/images/types/{{type}}.png" alt="type-{{type}}">
                     </div>
                 </div>
         
                 <div class="stats">
                     <div class="hp">
-                        PV : <span class="stat-text">{{ pokemon.base.HP }}</span>
+                        PV : <span class="stat-text">{{ pokemon.pv }}</span>
                     </div>
                     <div class="atk">
-                        Attaque : <span class="stat-text">{{ pokemon.base.Attack }}</span>
+                        Attaque : <span class="stat-text">{{ pokemon.atk }}</span>
                     </div>
                     <div class="def">
-                        Défense : <span class="stat-text">{{ pokemon.base.Defense }}</span>
+                        Défense : <span class="stat-text">{{ pokemon.def }}</span>
                     </div>
                     <div class="spe-atk">
-                        Attaque spéciale : <span class="stat-text">{{ pokemon.base["Sp. Attack"]}}</span>
+                        Attaque spéciale : <span class="stat-text">{{ pokemon.atkspe}}</span>
                     </div>
                     <div class="spe-def">
-                        Défense spéciale : <span class="stat-text">{{ pokemon.base["Sp. Defense"]}}</span>
+                        Défense spéciale : <span class="stat-text">{{ pokemon.defspe}}</span>
                     </div>
                     <div class="vitesse">
-                        Vitesse : <span class="stat-text">{{ pokemon.base.Speed}}</span>
+                        Vitesse : <span class="stat-text">{{ pokemon.speed}}</span>
                     </div>
                 </div>
                 

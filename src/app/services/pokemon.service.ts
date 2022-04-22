@@ -1,8 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Pokemon } from 'src/models/pokemon';
-import allPokemons from '../../assets/pokemons.json';
-import { Observable, of } from 'rxjs';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
 
 
 
@@ -13,36 +12,12 @@ export class PokemonService {
 
   constructor(private http: HttpClient) { }
 
-  getPokemonByName(pokemon: string): Observable<Pokemon>{
-    const pokemonToReturn = new Pokemon()
-    const pokeFind = allPokemons.find(p => p.name === pokemon)
-    if (pokeFind) {
-      pokemonToReturn.id = pokeFind!.id;
-      pokemonToReturn.name = pokeFind!.name;
-      pokemonToReturn.type = pokeFind!.type;
-      pokemonToReturn.base = pokeFind!.base;
-    }
-
-    return of(pokemonToReturn)
-  }
-
   getPokemonById(id: number): Observable<Pokemon>{
-    const pokemonToReturn = new Pokemon()
-    const pokeFind = allPokemons.find(p => p.id === id)
-    if (pokeFind) {
-      pokemonToReturn.id = pokeFind!.id;
-      pokemonToReturn.name = pokeFind!.name;
-      pokemonToReturn.type = pokeFind!.type;
-      pokemonToReturn.base = pokeFind!.base;
-    }
-
-    return of(pokemonToReturn)
+    return this.http.get<Pokemon>(`https://mehdidex.herokuapp.com/pokemon/${id}`)
   }
 
-  getPokemon(){
-    const headers = new HttpHeaders()
-    headers.set('content-type','application/json')
-    return this.http.get('http://127.0.0.1:8000/api/pokemon')
+  getPokemon(): Observable<Pokemon[]>{
+    return this.http.get<Pokemon[]>('https://mehdidex.herokuapp.com/pokemon')
   }
 
   // addPokemon(pokemon: Pokemon){

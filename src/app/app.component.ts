@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { Pokemon } from 'src/models/pokemon';
-import Data from '../assets/pokemons.json';
 import { PokemonService } from './services/pokemon.service';
 
 @Component({
@@ -19,11 +18,12 @@ export class AppComponent {
   }
   
   ngOnInit(){
-    this.listePokemon = Data;
+    this.pokemonService.getPokemon().subscribe((pokemons: Pokemon[]) => {
+      this.listePokemon = pokemons
+    });
   }
 
   filterPokemon(event: any) {
-    //in a real application, make a request to a remote url with the query and return filtered results, for demo we filter at client side
     let filtered : any[] = [];
     let query = event.query;
 
@@ -49,5 +49,21 @@ export class AppComponent {
   goHome(){
     this.router.navigate([''])
   }
+
+  // transfer(){
+  //   let $that = this;
+  //   const timer = (ms:number) => new Promise(res => setTimeout(res, ms))
+
+  //   async function load () { // We need to wrap the loop into an async function for this to work
+  //     for (var i = 0; i < 151; i++) {
+  //       $that.pokemonService.addPokemon($that.listePokemon[i]).subscribe((resp)=>{
+  //         console.log(resp)
+  //       });
+  //       await timer(1500); // then the created Promise can be awaited
+  //     }
+  //   }
+
+  //   load();
+  // }
 
 }
